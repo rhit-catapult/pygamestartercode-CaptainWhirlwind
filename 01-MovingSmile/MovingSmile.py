@@ -32,6 +32,7 @@ def main():
         # TODO 1: Draw a nose
         # Suggestion: color (80,0,0) location (320,245), radius 10
         # API --> pygame.draw.circle(screen, (r,g,b), (x, y), radius, thickness)
+        pygame.draw.circle(screen, (80,0,0), (320,245), 20)
 
         # TODO 2: Draw a mouth
         # Suggestion: color (0,0,0), x 230, y 320, width 180, height 30
